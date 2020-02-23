@@ -1,5 +1,6 @@
 # Some-C-Exercises
-A repo to store all of my C++ exercises 
+A repo to store all of my C++ exercises. The beginner exercises are at the top of the list and they increase in difficulty as the list continues. 
+Feel free to use this repo to practice for yourself! 
 
 ## Table of Contents
 * [HelloWorld](#helloworld)
@@ -12,6 +13,7 @@ A repo to store all of my C++ exercises
 * [Salary](#salary)
 * [Whileloop](#whileloop)
 * [MathTutor](#mathtutor)
+* [GeometryCalculator](#geometrycalculator)
 
 ### [HelloWorld](./HelloWorld.cpp)
 This program prints a simple message to the user.  
@@ -147,3 +149,111 @@ Math Flash Card
     56
 Sorry, the correct answer is 55
 ```
+### [GeometryCalculator](./GeometryCalculator.cpp)
+This program prompts the user to enter a menu choice. Then based on the user's choice use a switch statement to display the information. Users will be able to calculate the area of a circle/rectangle/triangle or be able to quit. This exercise covers validation to check if the user inputs a number outside the choices in the menu as well as checking if the user is inputing a positive number for the value.  
+Output 1:  
+```
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 1
+
+Enter the circle's radius: -2
+Please only enter a positive value for the radius. 
+Thank you for using my Geometry Calculator!
+```
+> Rerun code 
+```
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 1
+
+Enter the circle's radius: 10
+The area of the circle is 314.159
+Thank you for using my Geometry Calculator!
+```  
+Output 2:  
+```
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 2
+
+Enter the rectangle's length: 20
+Enter the rectangle's width: 10
+The area of the rectangle is 200
+Thank you for using my Geometry Calculator!
+```
+> Rerun code
+```
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 2
+
+Enter the rectangle's length: 10
+Enter the rectangle's width: -2
+Please only enter a positive value for the length and width. 
+Thank you for using my Geometry Calculator!
+```  
+Output 3:  
+```
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 3
+
+Enter the length of the base: -2
+Enter the triangle's height: -4
+Please only enter a positve value for the base and height. 
+Thank you for using my Geometry Calculator!
+```
+> Rerun code
+```
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 3
+
+Enter the length of the base: 2
+Enter the triangle's height: 4
+The area of the triangle is 4.14778e-317
+Thank you for using my Geometry Calculator!
+```  
+Output 4:  
+```
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 4
+
+Quiting the program now!
+Thank you for using my Geometry Calculator!
+```  
+Ouput 5:  
+``` 
+***Geometry Calculator***
+1. Calculate the area of a circle
+2. Calculate the area of a rectangle
+3. Calculate the area of a triangle
+4. Quit
+Enter your choice (1-4): 5
+
+You can only enter 1, 2, 3, or 4. 
+Thank you for using my Geometry Calculator!
+```  
