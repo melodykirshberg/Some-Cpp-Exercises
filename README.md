@@ -3,18 +3,23 @@ A repo to store all of my C++ exercises. The beginner exercises are at the top o
 Feel free to use this repo to practice for yourself! 
 
 ## Table of Contents
-* [HelloWorld](#helloworld)
-* [MilesPerGallon](#milespergallon)
-* [WeightConversion](#weightconversion)
-* [Enhancedmpg](#enhancedmpg)
-* [IfElseRand](#ifelserand)
-* [AmpsCalculation](#ampscalculation)
-* [Currency](#currency)
-* [Salary](#salary)
-* [Whileloop](#whileloop)
-* [MathTutor](#mathtutor)
-* [GeometryCalculator](#geometrycalculator)
-* [ModuloTeam](#moduloteam)
+* [Basic Intro](#basic-intro)
+    * [HelloWorld](#helloworld)
+    * [MilesPerGallon](#milespergallon)
+    * [WeightConversion](#weightconversion)
+    * [Enhancedmpg](#enhancedmpg)
+    * [IfElseRand](#ifelserand)
+    * [AmpsCalculation](#ampscalculation)
+    * [Currency](#currency)
+    * [Salary](#salary)
+    * [Whileloop](#whileloop)
+    * [MathTutor](#mathtutor)
+    * [GeometryCalculator](#geometrycalculator)
+    * [ModuloTeam](#moduloteam)
+* [Using Files[(#using-files)
+
+## [Basic Intro](#basic-intro)
+This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulos.
 
 ### [HelloWorld](./HelloWorld.cpp)
 This program prints a simple message to the user.  
@@ -272,3 +277,4 @@ How many players are available? 15
 
 There will be 1 teams with 5 players left over. 
 ```
+## [Using Files](#using-files)
