@@ -16,7 +16,7 @@ Feel free to use this repo to practice for yourself!
     * [MathTutor](#mathtutor)
     * [GeometryCalculator](#geometrycalculator)
     * [ModuloTeam](#moduloteam)
-* [Using Files[(#using-files)
+* [Using Files](#using-files)
 
 ## [Basic Intro](#basic-intro)
 This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulos.
