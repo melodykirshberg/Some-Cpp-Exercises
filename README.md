@@ -6,6 +6,7 @@ A repo to store all of my C++ exercises
 * [MilesPerGallon](#milespergallon)
 * [WeightConversion](#weightconversion)
 * [Enhancedmpg](#enhancedmpg)
+* [IfElseRand](#ifelserand)
 
 ### [HelloWorld](./HelloWorld.cpp)
 This program prints a simple message to the user.  
@@ -40,4 +41,34 @@ Enter gas tank capacity in gallons: 30
 
 Belisarius Arius drove 132.00 miles on 30.00 gallons of gas.
 The car got 4.40 miles per gallon.
+```
+### [IfElseRand](./IfElseRand.cpp)
+This program determines ticket price based on age by using a if... else if statements to check the user's age and what price they will pay.
+
+Output 1:
+```
+Movie Ticket Calculator
+What is your age? 4
+Enter the ticket price: 9
+
+You get in for free kiddo!
+Your ticket price is 0.00
+```
+Output 2:
+```
+Movie Ticket Calculator
+What is your age? 18
+Enter the ticket price: 7
+
+You pay half price.
+Your ticket price is 3.50
+```
+Output 3:
+```
+Movie Ticket Calculator
+What is your age? 24
+Enter the ticket price: 13.65
+
+You pay full price.
+Your ticket price is 13.65
 ```
