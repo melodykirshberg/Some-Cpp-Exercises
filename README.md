@@ -21,7 +21,7 @@ Feel free to use this repo to practice for yourself!
 ## [Basic Intro](#basic-intro)
 This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulos.
 
-### [HelloWorld](./HelloWorld.cpp)
+### [HelloWorld](./Basics/HelloWorld.cpp)
 This program prints a simple message to the user.  
 Output: 
 ```
@@ -29,21 +29,21 @@ Hello World
 I haven't written in C++ in over a year
 So this 	 is me trying to 	 write some basic  	 code from what I remember
 ```
-### [MilesPerGallon](./MilesPerGallon.cpp)
+### [MilesPerGallon](./Basics/MilesPerGallon.cpp)
 This program calculates of much miles per gallon a vehicle gets.  
 Output: 
 ```
 The car drove 400 miles on 20 gallons of gas.
 It got 20 miles per gallon.
 ```
-### [WeightConversion](./WeightConversion.cpp)
+### [WeightConversion](./Basics/WeightConversion.cpp)
 This program prompts the user for a weight in pounds and converts the weight to kilograms.  
 Output:
 ```
 Enter the weight in pounds: 140
 140 pounds is 63.3484 in kilograms.
 ```
-### [Enhancedmpg](./Enhancedmpg.cpp)
+### [Enhancedmpg](./Basics/Enhancedmpg.cpp)
 This program calculates how many miles per gallon a vehicle gets by using rand() and stores the first and last name of the driver.  
 Output:
 ```
@@ -54,7 +54,7 @@ Enter gas tank capacity in gallons: 30
 Belisarius Arius drove 132.00 miles on 30.00 gallons of gas.
 The car got 4.40 miles per gallon.
 ```
-### [IfElseRand](./IfElseRand.cpp)
+### [IfElseRand](./Basics/IfElseRand.cpp)
 This program determines ticket price based on age by using a if... else if statements to check the user's age and what price they will pay.
 
 Output 1:
@@ -84,7 +84,7 @@ Enter the ticket price: 13.65
 You pay full price.
 Your ticket price is 13.65
 ```
-### [AmpsCalculation](./AmpsCalculation.cpp)
+### [AmpsCalculation](./Basics/AmpsCalculation.cpp)
 This program prompts the user for two double variables, thevoltage (V) and resistence (R) which will then calculate and display the current amps (I) and the power dissipation in watts (P).  
 Output:
 ```
@@ -94,7 +94,7 @@ Given a voltage of: 120 and resistance of: 9.29
 The amps are: 12.92
 The power is: 1550.05
 ```
-### [Currency](./Currency.cpp)
+### [Currency](./Basics/Currency.cpp)
 This program will convert U.S. dollar amounts to Japanese yen and to Euros.  
 Output:
 ```
@@ -103,7 +103,7 @@ Enter amount in dollars($): 167.92
 $167.92 = 18699.57 Yen
 $167.92 = 154.49 Euros
 ```
-### [Salary](./Salary.cpp)
+### [Salary](./Basics/Salary.cpp)
 Computes the raise and new salary for an employee. The input to the program includes the current annual salary for the employee and a number indicating the performance rating (1=excellent, 2=good, and 3=poor). An employee with a rating of 1 will receive a 6% raise, an employee with a rating of 2 will receive a 4% raise, and one with a rating of 3 will receive a 1.5% raise. All other ratings are invalid and the raise will be set to 0 and a message of whether you are promoted will be displayed.  
 Output:
 ```
@@ -116,7 +116,7 @@ Amount of your raise: 		$  3495.64
 Your new expected salary: 	$ 90886.64
 You are getting promoted!
 ```
-### [WhileLoop](./WhileLoop.cpp)
+### [WhileLoop](./Basics/WhileLoop.cpp)
 This program uses a while loop to print a message as many times as the limit is set to.  
 Output:
 ```
@@ -129,7 +129,7 @@ How many times would you like to tell the people of Citadel that this is your fa
 You told the people of Citadel 5 times.
 The sum of the numbers from 1 to 5 is 15
 ```
-### [MathTutor](./MathTutor.cpp)
+### [MathTutor](./Basics/MathTutor.cpp)
 This program generates two random integer numbers between 10 and 49 that are displayed as an addition problem. The program waits for the user's input and displays a message is it is correct. If the input is incorrect it notifies the user as well as displaying the correct answer.  
 Output 1:  
 ```
@@ -155,7 +155,7 @@ Math Flash Card
     56
 Sorry, the correct answer is 55
 ```
-### [GeometryCalculator](./GeometryCalculator.cpp)
+### [GeometryCalculator](./Basics/GeometryCalculator.cpp)
 This program prompts the user to enter a menu choice. Then based on the user's choice use a switch statement to display the information. Users will be able to calculate the area of a circle/rectangle/triangle or be able to quit. This exercise covers validation to check if the user inputs a number outside the choices in the menu as well as checking if the user is inputing a positive number for the value.  
 Output 1:  
 ```
@@ -263,7 +263,7 @@ Enter your choice (1-4): 5
 You can only enter 1, 2, 3, or 4. 
 Thank you for using my Geometry Calculator!
 ```  
-### [ModuloTeam](./ModuloTeam.cpp)
+### [ModuloTeam](./Basics/ModuloTeam.cpp)
 This program calculates the number of people a team will create with the number of leftover players. This is to show how a modulo works as well as data validation.  
 Output:  
 ```
