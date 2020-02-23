@@ -14,6 +14,7 @@ Feel free to use this repo to practice for yourself!
 * [Whileloop](#whileloop)
 * [MathTutor](#mathtutor)
 * [GeometryCalculator](#geometrycalculator)
+* [ModuloTeam](#moduloteam)
 
 ### [HelloWorld](./HelloWorld.cpp)
 This program prints a simple message to the user.  
@@ -257,3 +258,17 @@ Enter your choice (1-4): 5
 You can only enter 1, 2, 3, or 4. 
 Thank you for using my Geometry Calculator!
 ```  
+### [ModuloTeam](./ModuloTeam.cpp)
+This program calculates the number of people a team will create with the number of leftover players. This is to show how a modulo works as well as data validation.  
+Output:  
+```
+How many players do you want on your team? 
+Enter a value between 9 - 19: 8
+Players must be between 9 - 19.
+Please re-enter the amount of players you want on your team: 20
+Players must be between 9 - 19.
+Please re-enter the amount of players you want on your team: 10
+How many players are available? 15
+
+There will be 1 teams with 5 players left over. 
+```
