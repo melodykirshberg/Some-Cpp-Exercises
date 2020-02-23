@@ -9,6 +9,7 @@ A repo to store all of my C++ exercises
 * [IfElseRand](#ifelserand)
 * [AmpsCalculation](#ampscalculation)
 * [Currency](#currency)
+* [Whileloop](#whileloop)
 
 ### [HelloWorld](./HelloWorld.cpp)
 This program prints a simple message to the user.  
@@ -91,4 +92,17 @@ Enter amount in dollars($): 167.92
 
 $167.92 = 18699.57 Yen
 $167.92 = 154.49 Euros
+```
+### [WhileLoop](./WhileLoop.cpp)
+This program uses a while loop to print a message as many times as the limit is set to.  
+Output:
+```
+How many times would you like to tell the people of Citadel that this is your favorite store? 5
+1 My name is commander shepard and this is my favorite store on the Citadel! odd
+2 My name is commander shepard and this is my favorite store on the Citadel! even
+3 My name is commander shepard and this is my favorite store on the Citadel! odd
+4 My name is commander shepard and this is my favorite store on the Citadel! even
+5 My name is commander shepard and this is my favorite store on the Citadel! odd
+You told the people of Citadel 5 times.
+The sum of the numbers from 1 to 5 is 15
 ```
