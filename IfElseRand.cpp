@@ -10,7 +10,6 @@ int main()
 {
     int age = 0;
     double price = 0.0;
-    int seed = time(0);
 
     cout << "Movie Ticket Calculator\n";
 
