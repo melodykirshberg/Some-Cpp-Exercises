@@ -22,7 +22,7 @@ int main()
 };
 
 /*
-Output Generated:
+Output:
 Enter the weight in pounds: 140
 140 pounds is 63.3484 in kilograms.
 */

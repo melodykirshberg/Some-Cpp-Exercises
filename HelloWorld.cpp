@@ -16,6 +16,6 @@ int main() // Main entry to the program
 /*
 Output:
 Hello World
-I haven;t written in C++ in over a year
+I haven't written in C++ in over a year
 So this 	 is me trying to 	 write some basic  	 code from what I remember 
 */
