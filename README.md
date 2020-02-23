@@ -11,6 +11,7 @@ A repo to store all of my C++ exercises
 * [Currency](#currency)
 * [Salary](#salary)
 * [Whileloop](#whileloop)
+* [MathTutor](#mathtutor)
 
 ### [HelloWorld](./HelloWorld.cpp)
 This program prints a simple message to the user.  
@@ -119,4 +120,30 @@ How many times would you like to tell the people of Citadel that this is your fa
 5 My name is commander shepard and this is my favorite store on the Citadel! odd
 You told the people of Citadel 5 times.
 The sum of the numbers from 1 to 5 is 15
+```
+### [MathTutor](./MathTutor.cpp)
+This program generates two random integer numbers between 10 and 49 that are displayed as an addition problem. The program waits for the user's input and displays a message is it is correct. If the input is incorrect it notifies the user as well as displaying the correct answer.  
+Output 1:  
+```
+Math Flash Card
+---------------
+
+    12
++
+    26
+  ----
+    38
+Congrats! That is correct!
+```  
+Output 2:    
+```
+Math Flash Card
+---------------
+
+    28
++
+    27
+  ----
+    56
+Sorry, the correct answer is 55
 ```
