@@ -9,6 +9,7 @@ A repo to store all of my C++ exercises
 * [IfElseRand](#ifelserand)
 * [AmpsCalculation](#ampscalculation)
 * [Currency](#currency)
+* [Salary](#salary)
 * [Whileloop](#whileloop)
 
 ### [HelloWorld](./HelloWorld.cpp)
@@ -92,6 +93,19 @@ Enter amount in dollars($): 167.92
 
 $167.92 = 18699.57 Yen
 $167.92 = 154.49 Euros
+```
+### [Salary](./Salary.cpp)
+Computes the raise and new salary for an employee. The input to the program includes the current annual salary for the employee and a number indicating the performance rating (1=excellent, 2=good, and 3=poor). An employee with a rating of 1 will receive a 6% raise, an employee with a rating of 2 will receive a 4% raise, and one with a rating of 3 will receive a 1.5% raise. All other ratings are invalid and the raise will be set to 0 and a message of whether you are promoted will be displayed.  
+Output:
+```
+Enter the current annual salary: 87391
+Enter the performance rating: 
+1=excellent, 2=good, and 3=poor.  
+Rating is : 2
+Amount of your current salary:	$ 87391.00
+Amount of your raise: 		$  3495.64
+Your new expected salary: 	$ 90886.64
+You are getting promoted!
 ```
 ### [WhileLoop](./WhileLoop.cpp)
 This program uses a while loop to print a message as many times as the limit is set to.  
