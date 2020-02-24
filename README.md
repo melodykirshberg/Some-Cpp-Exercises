@@ -20,6 +20,8 @@ Feel free to use this repo to practice for yourself!
     * [WritingToFile](#writingtofile)
     * [ReadingToFile](#readingtofile)
     * [WriteAndRead](#writeandread)
+* [Structures](#structures)
+    * [StructureIntro](#structureintro)
 
 ## [Basic Intro](./Basics)
 This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulus.
@@ -340,4 +342,15 @@ There were 5 squad members in the file.
 All files are closed and your report is written. Goodbye!
 Press any key to continue . . .
 
+```
+## [Structures](./Structures)  
+
+### [StructureIntro](./Structures/StructIntro.cpp)  
+This activity shows us how to use a struct declaration and the basic example of how these are used.  
+Output:  
+```
+Javik is a Prothean who is 50000 years old which is 25 in human years.
+Nerevarine is a Dunmer who is 25 years old.
+They are the same age in human years!
+Press any key to continue . . .
 ```
