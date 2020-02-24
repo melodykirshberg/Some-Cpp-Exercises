@@ -18,6 +18,7 @@ Feel free to use this repo to practice for yourself!
     * [ModuloTeam](#moduloteam)
 * [Using Files](#using-files)
     * [WritingToFile](#writingtofile)
+    * [ReadingToFile](#readingtofile)
 
 ## [Basic Intro](#basic-intro)
 This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulos.
@@ -287,6 +288,22 @@ Output:
 Enter five numbers, separated by blanks
 33 29 17 45 62
 Your numbers have been written to the randomNumbers.txt file.
+Goodbye
+Press any key to continue . . .
+```
+### [ReadingToFile](./Files/ReadingToFile.cpp)  
+This program reads 5 numbers from the previous file we made in the last activity with a bonus of giving us the average as well.  
+Output:  
+```
+Output: 
+The following numbers have been read in
+from the data file called randomNumbers.txt:
+33
+29
+17
+45
+92
+The average of the values is : 43.20
 Goodbye
 Press any key to continue . . .
 ```
