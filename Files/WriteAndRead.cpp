@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -37,8 +38,8 @@ int main()
         while (infile >> fName >> lName >> num1 >> num2 >> num3 >> num4 >> num5)
         {
             average = (num1 + num2 + num3 + num4 + num5) / 5.0;
-            cout << fName << " " << lName << " has an average of " << average << endl;
-            outfile << fName << " " << lName << " has an average of " << average << endl;
+            cout << setprecision(4) << fName << " " << lName << " has an average of " << average << endl;
+            outfile << setprecision(4) << fName << " " << lName << " has an average of " << average << endl;
             sum += num;
             i++;
         }
@@ -78,7 +79,7 @@ SSV Normandy Crew Test
 -----------------------------------
 Garrus Vakarian has an average of 94.78
 Tali Zorah has an average of 88.4
-Liara T'Soni has an average of 99.396
+Liara T'Soni has an average of 99.4
 Mordin Solus has an average of 99.98
 Thane Krios has an average of 92.8
 

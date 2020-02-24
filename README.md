@@ -316,7 +316,7 @@ SSV Normandy Crew Test
 -----------------------------------
 Garrus Vakarian has an average of 94.78
 Tali Zorah has an average of 88.4
-Liara T'Soni has an average of 99.396
+Liara T'Soni has an average of 99.4
 Mordin Solus has an average of 99.98
 Thane Krios has an average of 92.8
 
@@ -330,4 +330,5 @@ There were 5 squad members in the file.
 
 All files are closed and your report is written. Goodbye!
 Press any key to continue . . .
+
 ```
