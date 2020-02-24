@@ -1,4 +1,12 @@
-// This program takes the previous two file activities and combines them into one where we will also include a while loop to check if the file was correctly opened or not
+/*
+This program takes the previous two file activities and combines them into one where we will also include a while loop to check if the file was correctly opened or not. We should start out with a premade file called "scores.txt" which stores:  
+Garrus Vakarian 98 89 92 95 99.9
+Tali Zorah 87 89 96 88 82
+Liara T'Soni 100 100 99.98 99 98
+Mordin Solus 100 100 100 100 99.9
+Thane Krios 98 89 97 87 93
+Then when the code runs it should create a new file called "specialReport.txt" that displays the names of the crew and their average scores. 
+*/
 
 #include <iostream>
 #include <fstream>
