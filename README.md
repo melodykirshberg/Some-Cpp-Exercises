@@ -22,7 +22,7 @@ Feel free to use this repo to practice for yourself!
     * [WriteAndRead](#writeandread)
 
 ## [Basic Intro](#basic-intro)
-This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulos.
+This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulus.
 
 ### [HelloWorld](./Basics/HelloWorld.cpp)
 This program prints a simple message to the user.  
@@ -267,7 +267,7 @@ You can only enter 1, 2, 3, or 4.
 Thank you for using my Geometry Calculator!
 ```  
 ### [ModuloTeam](./Basics/ModuloTeam.cpp)
-This program calculates the number of people a team will create with the number of leftover players. This is to show how a modulo works as well as data validation.  
+This program calculates the number of people a team will create with the number of leftover players. This is to show how a modulus works as well as data validation.  
 Output:  
 ```
 How many players do you want on your team? 

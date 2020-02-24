@@ -1,4 +1,4 @@
-// This program calculates the number of people a team will create with the number of leftover players. This is to show how a modulo works as well as data validation.
+// This program calculates the number of people a team will create with the number of leftover players. This is to show how a modulus works as well as data validation.
 
 #include <iostream>
 using namespace std;
