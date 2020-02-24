@@ -21,7 +21,7 @@ Feel free to use this repo to practice for yourself!
     * [ReadingToFile](#readingtofile)
     * [WriteAndRead](#writeandread)
 
-## [Basic Intro](#basic-intro)
+## [Basic Intro](./Basics)
 This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulus.
 
 ### [HelloWorld](./Basics/HelloWorld.cpp)
@@ -280,7 +280,7 @@ How many players are available? 15
 
 There will be 1 teams with 5 players left over. 
 ```
-## [Using Files](#using-files)
+## [Using Files](./Files)
 
 ### [WritingToFile](./Files/WritingToFile.cpp)  
 This program writes 5 floating-point numbers to a file. You cpp file should be in the Resource folder of your project. Once built and debugged open the file of your project in your file explorer and navigate to the newly created txt document with the numbers that were entered.  
