@@ -19,6 +19,7 @@ Feel free to use this repo to practice for yourself!
 * [Using Files](#using-files)
     * [WritingToFile](#writingtofile)
     * [ReadingToFile](#readingtofile)
+    * [WriteAndRead](#writeandread)
 
 ## [Basic Intro](#basic-intro)
 This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulos.
@@ -305,5 +306,28 @@ from the data file called randomNumbers.txt:
 92
 The average of the values is : 43.20
 Goodbye
+Press any key to continue . . .
+```
+### [WriteAndRead](./Files/WriteAndRead.cpp)
+This program takes the previous two file activities and combines them into one where we will also include a while loop to check if the file was correctly opened or not.  
+Output:  
+```
+SSV Normandy Crew Test
+-----------------------------------
+Garrus Vakarian has an average of 94.78
+Tali Zorah has an average of 88.4
+Liara T'Soni has an average of 99.396
+Mordin Solus has an average of 99.98
+Thane Krios has an average of 92.8
+
+There were 5 squad members in the file.
+
+ Garrus Vakarian: A turian who was responsible for the investigation in Saren Arterius and eventually joins Commander Shepard's team to help defeat Saren and the geth.
+ Tali Zorah: A quarian who Commander Shepard meets when on her pilgrimage and eventually becomes the mechanical genius on Shepards crew.
+ Liara T'Soni: A asari researcher who has studied Prothean technology and culture giving her great insight as well as a user of biotics on Shepard's team.
+ Mordin Solus: A salarian geneticist/professor/operative who participated in the genophage. He is recruited by Shepard to assist in missions against the Collectors.
+ Thane Krios: A drell assassin and biotic user, considered one of the best assassins in the galaxy, who joins Shepard's suicide mission against the Collectors due to his Kepral's Syndrome.
+
+All files are closed and your report is written. Goodbye!
 Press any key to continue . . .
 ```
