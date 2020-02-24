@@ -17,6 +17,7 @@ Feel free to use this repo to practice for yourself!
     * [GeometryCalculator](#geometrycalculator)
     * [ModuloTeam](#moduloteam)
 * [Using Files](#using-files)
+    * [WritingToFile](#writingtofile)
 
 ## [Basic Intro](#basic-intro)
 This goes over the basic intro to C++ as exercises I've done. Most of the activities include basic math, learning about int/float/double/etc, validation, conversion, random numbers, switch statements,while loops, if... else if, and modulos.
@@ -278,3 +279,14 @@ How many players are available? 15
 There will be 1 teams with 5 players left over. 
 ```
 ## [Using Files](#using-files)
+
+### [WritingToFile](./Files/WritingToFile.cpp)  
+This program writes 5 floating-point numbers to a file. You cpp file should be in the Resource folder of your project. Once built and debugged open the file of your project in your file explorer and navigate to the newly created txt document with the numbers that were entered.  
+Output:  
+```
+Enter five numbers, separated by blanks
+33 29 17 45 62
+Your numbers have been written to the randomNumbers.txt file.
+Goodbye
+Press any key to continue . . .
+```
